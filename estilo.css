@@ -1,0 +1,189 @@
+/* mexe no nave parte de cima*/
+@import url(https://fonts.googleapis.com/css;);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #0880e2;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav img {
+    width: 100px;
+    object-fit: contain;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 5px;
+    margin: 0 8px;
+}
+
+nav ul li:last-child {
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+/* mexe no conteudo no meio da tela*/
+main {
+    background-color: #0573ce;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-main {
+    max-width: 410px;
+}
+
+.container-main h4{
+   margin-bottom: 20px;
+   line-height: 2;
+   font-weight: 200px;
+}
+
+main img{
+    max-width: 500px;
+}
+
+.buttom-account {
+    background-color: yellow;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.5s ease all;
+}
+
+.buttom-account:hover{
+    background-color: #c59a00;
+}
+
+/*mexe no video*/
+.video-prop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    border-radius: 250px;
+}
+
+.ifrm {
+    border-radius: 25px;
+}
+
+/*Nome abaixo do video*/
+.pharse {
+    text-align: center;
+
+}
+
+/* Mexe no cards abaixo do video*/
+.container-cards{
+    background-color: rgb(253, 253, 250);
+    display:flex;
+    justify-content: space-around;
+}
+
+.container-cards div{
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 20px;
+    max-width: 350px;
+    background-color: #023b87;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    padding: 65px 0px;
+    margin: 40px;
+
+}
+
+.container-cards div img {
+    width: 150px;
+}
+
+.container-cards div p {
+    text-align: center;
+    margin:30px 0px 10px 0;
+}
+
+.container-cards div h2 {
+    text-align: center;
+    margin:20px 0px ;
+}
+
+.container-cards div:first-child{
+    background-color: #023b87;
+}
+
+.container-cards div:nth-child(2){
+    background-color: #0573ce;
+}
+
+.container-cards div:last-child{
+    background-color: #418382;
+}
+
+/*Mexe no parte em baixo das fotos dos cards*/
+.container-button-2{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-account-2{
+    background-color: #4183b2;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    width: 250px;
+}
+
+.button-account-2:hover {
+    background-color: #c59a00;
+}
+
+/*Mexe na parte abaixo do botão resolva sua vida*/
+.container-dashboard {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-dashboard  img {
+    width: 300px;
+}
+
+.container-dashboard div h2 {
+    color: rgb(31, 28, 28);
+    max-width: 400px;
+    margin: 40px;
+    display: center;
+}
+
+
+.container-dashboard div img {
+    width: 250px;
+    height: 50px;
+}
