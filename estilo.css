@@ -187,3 +187,10 @@ main img{
     width: 250px;
     height: 50px;
 }
+
+.shar{
+    display: flex;
+    justify-content: flex;
+    color: #0880e2;
+    margin: 20px;
+}
